@@ -3,16 +3,16 @@ import cls from './Navbar.module.scss';
 import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink'
 
 
+
 interface NavbarProps {
 	className?: string;
-
 }
 
 export const Navbar = ({className}: NavbarProps) => {
-	// время 12 урока 2.30
 
 	return (
 		<div className={classNames(cls.Navbar, {}, [className])}>
+			
 			<div className={cls.Links}>
 				<AppLink theme={AppLinkTheme.SECONDARY} to={'/'} className={cls.mainLink}>
 					Главная
@@ -24,4 +24,3 @@ export const Navbar = ({className}: NavbarProps) => {
 		</div>
 	);
 };
-
