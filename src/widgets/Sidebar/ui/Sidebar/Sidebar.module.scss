@@ -4,7 +4,12 @@
     background: var(--inverted-bg-color);
     position: relative;
     transition: width 0.3s;
+	 button {
+		color: green;
+	 }
 }
+
+
 
 .collapsed {
     width: var(--sidebar-width-collapsed);
@@ -21,3 +26,4 @@
 .lang {
     margin-left: 20px;
 }
+

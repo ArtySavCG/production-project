@@ -5,6 +5,9 @@
   position: relative;
   transition: width 0.3s;
 }
+.Sidebar button {
+  color: green;
+}
 
 .collapsed {
   width: var(--sidebar-width-collapsed);
