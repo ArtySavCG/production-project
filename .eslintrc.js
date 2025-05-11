@@ -18,6 +18,7 @@ module.exports = {
 		'react/jsx-indent': [2, 'tab'],
 		'react/jsx-indent-props': [2, 'tab'],
 		indent: [2, 'tab'],
+		'allowIndentationTabs': 'true', 
 		'no-mixed-spaces-and-tabs': 'off',
 		'react/jsx-filename-extension': [
 			2,
